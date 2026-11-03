@@ -135,7 +135,7 @@
   .compare ul { list-style: none; display: grid; gap: 12px; }
   .compare li { display: flex; gap: 12px; align-items: flex-start; }
   .compare .them li { color: var(--ink-soft); }
-  .compare .them li::before { content: "–"; color: var(--ink-soft); flex: none; width: 24px; text-align: center; }
+  .compare .them li::before { content: "✕"; flex: none; width: 24px; height: 24px; border-radius: 50%; background: var(--line); color: var(--ink-soft); display: grid; place-items: center; font-size: .72rem; font-weight: 700; margin-top: 1px; }
   .compare .us li::before { content: "✓"; flex: none; width: 24px; height: 24px; border-radius: 50%; background: var(--accent); color: #fff; display: grid; place-items: center; font-size: .78rem; font-weight: 700; margin-top: 1px; }
 
   /* Case */
@@ -407,21 +407,21 @@
     <p class="lead">La mayoría de las consultoras de Recursos Humanos ofrecen selección y capacitación para cualquier rubro. Nosotros nos especializamos en plantas de alimentos y bebidas, y en entender por qué un problema de producción se repite.</p>
     <div class="compare">
       <div class="them">
-        <h3>Otras consultoras de RR.HH.</h3>
+        <h3>Lo habitual en consultoras de RR.HH.</h3>
         <ul>
-          <li>Parte de la estructura de Recursos Humanos</li>
+          <li>Parten de la estructura de Recursos Humanos</li>
           <li>Su servicio principal es buscar y seleccionar personal</li>
-          <li>Atiende pymes de todos los rubros</li>
-          <li>Entrega un informe o un curso estándar</li>
+          <li>Atienden pymes de todos los rubros</li>
+          <li>Entregan un informe o un curso estándar</li>
         </ul>
       </div>
       <div class="us">
-        <h3>Meraki</h3>
+        <h3>Cómo trabajamos en Meraki</h3>
         <ul>
-          <li>Parte de un problema de producción concreto</li>
-          <li>Diagnostica con evidencia relevada en tu planta, en distintos turnos</li>
-          <li>Trabaja solo con plantas de alimentos y bebidas</li>
-          <li>Co-diseña el plan con tu equipo y acompaña su implementación</li>
+          <li>Partimos de un problema de producción concreto</li>
+          <li>Diagnosticamos con evidencia relevada en tu planta, en distintos turnos</li>
+          <li>Trabajamos solo con plantas de alimentos y bebidas</li>
+          <li>Co-diseñamos el plan con tu equipo y acompañamos su implementación</li>
         </ul>
       </div>
     </div>
